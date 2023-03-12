@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    /* padding: 0px; */
+}
+
+.root-div{ 
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+
+h3{
+    background-color: rgb(143, 35, 35);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+/* this is for card title style */
+h1{
+    color: white;
+    stroke-width: 50px;
+}
+.card{
+    border: 2px solid;
+height: 400px;
+width: 350px;
+border-radius: 10px;
+text-align: center;
+margin-inline: 20px;
+margin-top: 10px;
+}
+
+.card:hover{
+    margin-top: 20px;
+}
+
+
+.body{
+    padding: 10px;
+    margin-top: 56px;
+}
+
+.list{
+    padding: 53px 33px;
+}
+
+/* This is card colors */
+.head-purple{
+    
+    background-color: purple;
+    padding: 25px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+   
+.head-blue{
+    
+    background-color: rgb(31, 143, 199);
+    padding: 25px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.head-yellow{
+    
+    background-color: rgb(210, 223, 35);
+    padding: 25px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+
+/* This for wrap features */
+
+@media only screen and(max-width:360px) {
+    .card .body .list{
+        position: relative;
+        right: 10px;
+    }
+}
+/* This is for marquee style */
+h4{
+    color: green;
+    padding-top: 60px;
+    font-size: 40px;
+}

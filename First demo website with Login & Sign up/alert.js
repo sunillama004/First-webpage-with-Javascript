@@ -1,0 +1,1 @@
+alert("You are going to hack-Press ENTER");

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup2eg</title>
+    <style>
+        body{
+            background-color: skyblue;
+            font-size: 20px;
+        }
+        h2{
+            text-align: center;
+
+        }
+        form{
+           /* text-align: flex; */
+           margin-left: 43%;
+           /* margin-right: 20%; */
+           border: 2px;
+    /* margin-right: 140px; */
+    /* font-size: 30px; */
+}
+
+    </style>
+</head>         
+<body>
+
+    <h2>This is HTML Form example</h2>
+    <form action="index.php" method="get">
+        
+        <label for="Firstname"> Full Name:</label><br/>
+        <input type="text" name="Firstname"/><br/>
+
+        <label for="gender">Gender:</label><br/>
+        <input type="radio" name="gender" value="m">Male</input><input type="radio" name="gender" value="f">FeMale</input><input type="radio" name="gender" value="o">Others</input><br/><br/>
+        
+        <label for="eligible">Are you eligible?:</label>
+         <input type="checkbox" name="ealigible" checked/><br/><br/>
+
+         <label for="phoneCode">Phone no:</label><br/>
+         <select name="phoneCode" size="width">
+            <option selected hidden value="">Select Code</option>
+            <option value="+977">+977</option>
+            <option value="+977">+978</option>
+            <option value="+977">+979</option>
+            <option value="+977">+980</option>
+            <option value="+977">+981</option>
+            <option value="+977">+982</option>
+         </select>
+
+        <label for="phone"></label>
+        <input type="phone" name="phone"/><br/><br/>
+        
+        <label for="Address"> Address:</label><br/>
+        <input type="text" name="Address"/><br/>
+
+        
+         <label for="Email"> Email:</label><br/>
+        <input type="email" name="Email"/><br/>
+
+        <label for="date">DOB:</label><br/>
+        <input type="date" name="date"/><br/><br/>
+
+        <label for="Nationality">Nationality:</label><br/>
+        <select name="Nationality"><br/>
+            
+            <Option selected hidden value="">Please Select</Option>
+            <Option value="Res">Resident</Option>
+            <Option value="NRN">Non-Resident</Option><br/>
+        </select>
+        <br/><br/>
+
+        <label for="Text">Write about yourself:</label>
+         <br/> 
+        <textarea name="Text" cols="60" rows="10" placeholder="Write only 150 words"></textarea>
+<br/><br/>
+        <button type="submit" name="signup">SignUp</button>
+        <button type="reset" name="reset">Reset Form</button>
+
+    </form>
+</body>
+</html>
